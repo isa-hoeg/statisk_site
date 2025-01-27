@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+@font-face {
+  font-family: dm_sans;
+  src: url(../fonts/dm_sans/dmsans-variablefont_opszwght-webfont.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: gaso;
+  src: url(../fonts/gaso/gasoekone-regular-webfont.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+header {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+  padding: 10px 15px;
+}
+.menu a {
+  display: block;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: red;
+}
+body {
+  background-color: rgba(255, 252, 252, 0.753);
+}
+h2 {
+  font-size: 18px;
+  font-family: gaso;
+  font-weight: 100;
+  padding: 25px 15px;
+  color: red;
+}
+.forside {
+  text-align: center;
+  color: black;
+}
+.category {
+  text-decoration: none;
+  color: black;
+  font-family: gaso;
+  font-weight: 100;
+  font-size: 15px;
+  background-color: rgb(239, 69, 69);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 25px;
+}
+.category:hover {
+  color: white;
+}
+h3 {
+  font-size: 15px;
+  font-family: gaso;
+  font-weight: 100;
+  padding-top: 5px;
+  text-align: center;
+}
+h3:hover {
+  color: red;
+}
+h4 {
+  color: rgb(155, 155, 155);
+  font-family: dm_sans;
+  font-size: 14px;
+  text-align: center;
+}
+.pris {
+  font-family: dm_sans;
+  font-size: 14px;
+  font-weight: 900;
+  text-align: center;
+  padding: 5px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.discount {
+  font-size: 14px;
+  font-family: gaso;
+  background-color: white;
+}
+.sold_out {
+  font-size: 18px;
+  font-family: gaso;
+  background-color: white;
+}
+.rabat_sold {
+  opacity: 0.4;
+}
+/* PRODUKT */
+.p_produkt {
+  font-family: gaso;
+  font-size: 13px;
+}
+@media (min-width: 850px) {
+  header {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 30px;
+    font-family: gaso;
+    padding: 25px 15px;
+  }
+  .category {
+    font-size: 20px;
+    padding: 2rem;
+  }
+}

@@ -3,9 +3,94 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Produkter</title>
+    <title>Products</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/layout.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanalei&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Rasa:ital,wght@0,300..700;1,300..700&family=Rozha+One&family=Rubik+Dirt&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Gasoek+One&family=Hanalei&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Rasa:ital,wght@0,300..700;1,300..700&family=Rozha+One&family=Rubik+Dirt&display=swap" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <a href="index.html">
+        <img src="logo.webp" alt="logo" />
+      </a>
+      <ul class="menu">
+        <li>
+          <a href="index.html" class="menu_punkter">Categories</a>
+        </li>
+        <li>
+          <a href="index.html" class="menu_punkter">Brands</a>
+        </li>
+        <li>
+          <a href="index.html" class="menu_punkter">Seasons</a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </header>
+    <main>
+      <h2>Puma</h2>
+      <div class="product_list_container">
+        <a href="produkt.html">
+          <div class="produkt_rabat">
+            <img src="https://kea-alt-del.dk/t7/images/webp/640/1525.webp" class="rabat" alt="taske" />
+            <h3>Deck Navy Blue Backpack</h3>
+            <h4>Accessories, Bags, Puma</h4>
+            <p class="pris">DKK 1299,-</p>
+            <p class="discount">-54%</p>
+          </div>
+        </a>
+        <a href="produkt.html">
+          <div class="produkt">
+            <img src="https://kea-alt-del.dk/t7/images/webp/640/1526.webp" alt="taske" />
+            <h3>Big Cat Backpack Black</h3>
+            <h4>Accessories, Bags, Puma</h4>
+            <p class="pris">DKK 1299,-</p>
+          </div>
+        </a>
+        <a href="produkt.html">
+          <div class="produkt">
+            <img src="https://kea-alt-del.dk/t7/images/webp/640/1531.webp" alt="tshirt" />
+            <h3>Grey Round Neck T-shirt</h3>
+            <h4>Apparel, Topwear, Puma</h4>
+            <p class="pris">DKK 799,-</p>
+          </div>
+        </a>
+        <a href="produkt.html">
+          <div class="produkt">
+            <img src="https://kea-alt-del.dk/t7/images/webp/640/1529.webp" alt="tshirt" />
+            <h3>Tee</h3>
+            <h4>Apparel, Topwear, Puma</h4>
+            <p class="pris">DKK 1899,-</p>
+          </div>
+        </a>
+        <a href="produkt.html">
+          <div class="produkt_rabat">
+            <img src="https://kea-alt-del.dk/t7/images/webp/640/1530.webp" class="rabat_sold" alt="tshirt" />
+            <h3>Track Jacket</h3>
+            <h4>Apparel, Topwear, Puma</h4>
+            <p class="pris">DKK 4299,-</p>
+            <p class="discount">-57%</p>
+            <p class="sold_out">Sold out</p>
+          </div>
+        </a>
+        <a href="produkt.html">
+          <div class="produkt">
+            <img src="https://kea-alt-del.dk/t7/images/webp/640/1532.webp" alt="tshirt" />
+            <h3>Grey Leaping Cat T-shirt</h3>
+            <h4>Apparel, Topwear, Puma</h4>
+            <p class="pris">DKK 899,-</p>
+          </div>
+        </a>
+      </div>
+    </main>
+    <script src="js/menu.js"></script>
+  </body>
 </html>
