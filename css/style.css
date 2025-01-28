@@ -106,7 +106,16 @@ a {
 /* PRODUKT */
 .p_produkt {
   font-family: gaso;
-  font-size: 13px;
+  font-size: 22px;
+}
+.info {
+  list-style: none;
+  font-family: gaso;
+  font-size: 14px;
+  padding: 5px 2px;
+}
+p {
+  font-family: dm_sans;
 }
 @media (min-width: 850px) {
   header {

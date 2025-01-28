@@ -108,15 +108,13 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  margin: 2rem;
 }
 .img_produkt {
   grid-column: 1;
 }
 .produkt_info {
   grid-column: 2;
-}
-.produkt_info {
-  padding: 10px;
 }
 /* DESKTOP */
 @media (min-width: 850px) {
