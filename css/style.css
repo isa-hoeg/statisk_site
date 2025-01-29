@@ -84,12 +84,16 @@ h4 {
   font-size: 14px;
   text-align: center;
 }
-.pris {
+.pris,
+.pris_tilbud {
   font-family: dm_sans;
   font-size: 14px;
   font-weight: 900;
   text-align: center;
   padding: 5px;
+}
+.pris_tilbud {
+  text-decoration: line-through;
 }
 a {
   text-decoration: none;
@@ -128,13 +132,17 @@ a {
   list-style: none;
   font-family: gaso;
   font-size: 14px;
-  padding: 5px 2px;
+  padding: 2px;
+  padding-top: 8px;
 }
 .info:hover {
   color: red;
 }
 p {
   font-family: dm_sans;
+}
+.old_price {
+  text-decoration: line-through;
 }
 .beskrivelse {
   font-family: dm_sans;
@@ -143,6 +151,15 @@ p {
 }
 .produkt_info {
   background-color: rgb(241, 232, 232);
+}
+.discount_produkt {
+  font-size: 13px;
+  color: red;
+  align-self: center;
+  padding: 5px;
+}
+.info_pris {
+  text-decoration: line-through;
 }
 .choose_size {
   font-family: gaso;
