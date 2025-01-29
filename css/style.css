@@ -114,8 +114,30 @@ a {
   font-size: 14px;
   padding: 5px 2px;
 }
+.info:hover {
+  color: red;
+}
 p {
   font-family: dm_sans;
+}
+.produkt_info {
+  background-color: rgb(241, 232, 232);
+}
+.knap_kurv,
+.knap_buy {
+  background-color: darkgrey;
+  color: white;
+}
+.knap_kurv:hover,
+.knap_buy:hover {
+  color: red;
+  background-color: white;
+  border: 1px solid black;
+}
+.knapper {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 12px;
+  font-weight: 100;
 }
 @media (min-width: 850px) {
   header {
