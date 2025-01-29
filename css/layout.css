@@ -114,7 +114,7 @@ header {
   margin: 2rem;
 }
 .produkt_info {
-  padding: 10px;
+  padding: 15px;
 }
 .p_produkt {
   padding-bottom: 10px;
@@ -122,13 +122,19 @@ header {
 }
 .kategorier {
   column-count: 2;
+  padding: 25px;
+  text-align: center;
+}
+.choose_size {
+  display: flex;
+  justify-content: center;
   padding: 15px;
 }
 .knapper {
   display: flex;
-  gap: 25px;
+  gap: 20px;
   justify-content: space-around;
-  padding: 10px;
+  padding: 8px;
 }
 /* DESKTOP */
 @media (min-width: 850px) {

@@ -104,6 +104,12 @@ a {
   opacity: 0.4;
 }
 /* PRODUKT */
+.navigation {
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 12px;
+  text-align: center;
+}
 .p_produkt {
   font-family: gaso;
   font-size: 22px;
@@ -123,10 +129,21 @@ p {
 .produkt_info {
   background-color: rgb(241, 232, 232);
 }
+.choose_size {
+  font-family: gaso;
+  font-weight: 100;
+  font-size: 14px;
+  gap: 10px;
+}
+.choose_size:hover {
+  color: red;
+}
 .knap_kurv,
 .knap_buy {
   background-color: darkgrey;
   color: white;
+  border-radius: 10px;
+  border: 1px solid black;
 }
 .knap_kurv:hover,
 .knap_buy:hover {
@@ -137,7 +154,6 @@ p {
 .knapper {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 12px;
-  font-weight: 100;
 }
 @media (min-width: 850px) {
   header {
