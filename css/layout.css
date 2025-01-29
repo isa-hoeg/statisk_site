@@ -165,4 +165,9 @@ header {
     flex-direction: column;
     text-align: center;
   }
+  .produkt_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }

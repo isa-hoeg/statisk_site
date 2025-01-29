@@ -63,15 +63,20 @@ h2 {
 .category:hover {
   color: white;
 }
-h3 {
-  font-size: 15px;
-  font-family: gaso;
-  font-weight: 100;
+.displaynavn {
+  font-size: 17px;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
   padding-top: 5px;
   text-align: center;
 }
-h3:hover {
-  color: red;
+h3 {
+  font-family: gaso;
+  font-size: 15px;
+  font-weight: 100;
+  padding-top: 5px;
+
+  text-align: center;
 }
 h4 {
   color: rgb(155, 155, 155);
@@ -106,9 +111,14 @@ a {
 /* PRODUKT */
 .navigation {
   padding: 10px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  padding-top: 15px;
   text-align: center;
+  color: darkgrey;
+}
+.index:hover {
+  color: red;
 }
 .p_produkt {
   font-family: gaso;
@@ -125,6 +135,11 @@ a {
 }
 p {
   font-family: dm_sans;
+}
+.beskrivelse {
+  font-family: dm_sans;
+  font-size: 15px;
+  padding-bottom: 12px;
 }
 .produkt_info {
   background-color: rgb(241, 232, 232);
@@ -167,5 +182,29 @@ p {
   .category {
     font-size: 20px;
     padding: 2rem;
+  }
+  .navigation {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-top: 20px;
+  }
+  .displaynavn {
+    font-size: 22px;
+  }
+  .p_produkt {
+    font-size: 30px;
+  }
+  .info,
+  .choose_size {
+    font-size: 20px;
+  }
+  .beskrivelse {
+    font-size: 18px;
+  }
+  .knapper {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 15px;
+    padding: 10px;
   }
 }
