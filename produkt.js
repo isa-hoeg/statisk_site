@@ -1,5 +1,5 @@
 let produktbeskrivelser = document.querySelector(".produktbeskrivelser");
-let productId = 1526;
+let productId = 1575;
 
 fetch(`https://kea-alt-del.dk/t7/api/products/${productId}`)
   .then((response) => response.json())
@@ -14,28 +14,28 @@ fetch(`https://kea-alt-del.dk/t7/api/products/${productId}`)
           <ul class="kategorier">
             <li class="info">
               Brandname:
-              <p>Puma</p>
+              <p>${data.brandname}</p>
             </li>
             <li class="info">
               Gender:
-              <p>Unisex</p>
+              <p>${data.gender}</p>
             </li>
             <li class="info">
               Price:
-              <p class="old_price">1299,-</p>
-              <p class="discount_produkt">-54% discount</p>
+              <p class="old_price">${data.price}-</p>
+              <p class="discount_produkt">-${data.discount}% discount</p>
             </li>
             <li class="info">
               Productionyear:
-              <p>2010</p>
+              <p>${data.productionyear}</p>
             </li>
             <li class="info">
               Usagetype:
-              <p>Casual</p>
+              <p>${data.usagetype}</p>
             </li>
             <li class="info">
               Season:
-              <p>Fall</p>
+              <p>${data.season}</p>
             </li>
           </ul>
           <div class="choose_size">
