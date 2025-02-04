@@ -1,5 +1,7 @@
+const URLParams = new URLSearchParams(window.location.search);
+let productId = URLParams.get("id");
+
 let produktbeskrivelser = document.querySelector(".produktbeskrivelser");
-let productId = 1525;
 
 // denne fetch linker til json fil - med data fra produkterne
 // man skriver product og Id for at hente data fra en specifik database som her er fra produkterne
