@@ -18,11 +18,12 @@ function showList(products) {
       (product) =>
         ` <a href="produkt.html?id=${product.id}">
             <div class="produkt_rabat">
-            <img src="https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp" class="rabat" alt="taske" />
+            <img src="https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp" class="rabat ${!product.soldout && "rabat_sold"}"  alt="taske" />
             <h3>${product.productdisplayname}</h3>
             <h4>${product.category}, ${product.subcategory}, ${product.brandname}</h4>
-            <p class="pris_tilbud">${product.price} DKK</p>
-            <p class="discount">-${product.discount}%</p>
+            <p class="pris_tilbud ${product.price && "pris_tilbud_on"}">${product.price} DKK</p>
+            <p class="discount ${product.discount && "discount_on"}">-${product.discount}%</p>
+            <p class="sold_out ${!product.soldout && "skjul_on"}">Sold out</p>
           </div>
           </a>
           `

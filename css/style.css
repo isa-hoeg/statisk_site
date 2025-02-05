@@ -94,23 +94,50 @@ h4 {
 }
 .pris_tilbud {
   text-decoration: line-through;
+  visibility: hidden;
+}
+.pris_tilbud_on {
+  visibility: visible;
 }
 a {
   text-decoration: none;
   color: inherit;
 }
+.produkt {
+  border: 1px solid black;
+  visibility: hidden;
+}
+.produkt_rabat {
+  border: 1px solid black;
+  display: grid;
+}
 .discount {
   font-size: 14px;
   font-family: gaso;
-  background-color: white;
+  background-color: red;
+  visibility: hidden;
 }
 .sold_out {
   font-size: 18px;
   font-family: gaso;
   background-color: white;
+  border: 1px solid black;
+  visibility: hidden;
+}
+.discount_on {
+  visibility: visible;
+}
+.sold_out_on {
+  visibility: visible;
+}
+.skjul {
+  visibility: hidden;
+}
+.skjul_on {
+  visibility: visible;
 }
 .rabat_sold {
-  opacity: 0.4;
+  opacity: 0.3;
 }
 /* PRODUKT */
 .navigation {

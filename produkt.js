@@ -1,7 +1,7 @@
+let produktbeskrivelser = document.querySelector(".produktbeskrivelser");
+
 const URLParams = new URLSearchParams(window.location.search);
 let productId = URLParams.get("id");
-
-let produktbeskrivelser = document.querySelector(".produktbeskrivelser");
 
 // denne fetch linker til json fil - med data fra produkterne
 // man skriver product og Id for at hente data fra en specifik database som her er fra produkterne
@@ -28,7 +28,7 @@ fetch(`https://kea-alt-del.dk/t7/api/products/${productId}`)
             <li class="info">
               Price:
               <p class="old_price">${data.price}-</p>
-              <p class="discount_produkt">-${data.discount}% discount</p>
+              <p class="discount_produkt ${data.dicsount && "discount"}">-${data.discount}% discount </p>
             </li>
             <li class="info">
               Productionyear:
