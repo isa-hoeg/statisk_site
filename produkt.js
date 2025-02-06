@@ -27,8 +27,8 @@ fetch(`https://kea-alt-del.dk/t7/api/products/${productId}`)
             </li>
             <li class="info">
               Price:
-              <p class="old_price">${data.price}-</p>
-              <p class="discount_produkt ${data.dicsount && "discount"}">-${data.discount}% discount </p>
+              <p class="old_price">${data.price} DKK-,</p>
+              <p class="discount_produkt ${data.discount && "discount_on"}">-${data.discount}% discount</p>
             </li>
             <li class="info">
               Productionyear:

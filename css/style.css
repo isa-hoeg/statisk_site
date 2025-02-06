@@ -20,6 +20,13 @@ img {
   font-weight: normal;
   font-style: normal;
 }
+.overskrift {
+  font-family: gaso;
+  font-size: 35px;
+  font-weight: 100;
+  padding: 15px 20px;
+  text-align: center;
+}
 header {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
@@ -217,6 +224,9 @@ p {
 @media (min-width: 850px) {
   header {
     font-size: 15px;
+  }
+  .overskrift {
+    font-size: 45px;
   }
   h2 {
     font-size: 30px;
