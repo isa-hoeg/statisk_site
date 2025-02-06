@@ -69,21 +69,29 @@ h2 {
 }
 .category:hover {
   color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.753);
+}
+.category_list_container {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.753);
+  padding: 10px;
 }
 .displaynavn {
   font-size: 17px;
   color: red;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: dm_sans;
   padding-top: 5px;
   text-align: center;
 }
-h3 {
+.produktnavne,
+.h3 {
   font-family: gaso;
   font-size: 12px;
   font-weight: 100;
   padding-top: 5px;
-
   text-align: center;
+}
+.produktnavne:hover {
+  font-size: 13px;
 }
 h4 {
   color: rgb(155, 155, 155);
@@ -101,6 +109,7 @@ h4 {
 }
 .pris_tilbud {
   text-decoration: line-through;
+  color: red;
 }
 .pris_tilbud_on {
   visibility: visible;
@@ -117,6 +126,10 @@ a {
 .produkt_rabat {
   border: 1px solid black;
   display: grid;
+  padding-bottom: 8px;
+}
+.produkt_rabat:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.753);
 }
 .discount {
   font-size: 14px;
@@ -140,7 +153,7 @@ a {
 .skjul {
   visibility: hidden;
 }
-.skjul_on {
+.visible {
   visibility: visible;
 }
 .rabat_sold {
@@ -215,6 +228,7 @@ p {
 .knap_buy:hover {
   color: red;
   background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.753);
   border: 1px solid black;
 }
 .knapper {
@@ -244,7 +258,7 @@ p {
     padding-top: 20px;
   }
   .displaynavn {
-    font-size: 22px;
+    font-size: 25px;
   }
   .p_produkt {
     font-size: 30px;

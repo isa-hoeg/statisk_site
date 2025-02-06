@@ -68,7 +68,8 @@ header {
   grid-template-columns: repeat(2, 1fr);
   text-align: center;
   gap: 15px;
-  padding: 15px 10px;
+  padding: 25px 15px;
+  margin: 10px;
 }
 /* produktliste */
 .product_list_container {
@@ -102,7 +103,6 @@ header {
 /* Produkt */
 .produktbeskrivelser {
   display: grid;
-
   gap: 20px;
   margin: 2rem;
 }
